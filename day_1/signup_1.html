@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sign up</title>
+    <style>
+        .container {
+    padding: 16px;}
+
+    div {
+        width: 320px;
+        padding: 30px;
+    
+    margin: 10px; 
+    text-align: center;
+    align-content: space-around;
+}
+    </style>
+
+</head>
+<body>
+    <form>
+            <div class="container">
+                <label for="name">Name:</label><input name="firstname" type="text"/><br>
+                <label for="address">Address:</label><textarea name="address"></textarea><br>
+        gender:<input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female"> Female<br>
+         
+        
+        <label for="dob">Date of birth:</label><input type="date" name="bday"><br>
+        <label for="district">District:</label><select>
+            <option value="tvm">thiruvananthapuram</option>
+            <option value="klm">kollam</option>
+            <option value="pta">pathanamthitta</option>
+            <option value="ktm">kottayam</option>
+            <option value="alp">alapuzha</option>
+            <option value="ekm">ernakulam</option>
+            <option value="idk">idukki</option>
+            <option value="tsr">thrissur</option>
+            <option value="pkd">palakkad</option>
+            <option value="mlp">malappuram</option>
+            <option value="clt">calicut</option>
+            <option value="wyd">wayanad</option>
+            <option value="knr">kannur</option>
+            <option value="kkd">kasargod</option>
+        </select><br><br>
+
+        <label for="email">Email</label>
+        <input type="text" name="email" required><br><br>
+
+
+        <label for="u_id">user id</label>
+        <input type="text" name="u_id" required><br><br>
+
+        <label for="pwd">password</label>
+        <input type="password" name="pwd" required><br><br>
+
+        <label for="pwd2">conform password</label>
+        <input type="password" name="pwd2" required><br><br>
+        
+        <button type="button">Register</button>
+        <button type="button">reset</button><br>
+        <a href="index.html">Already registerd? </a>
+          </div>
+    </form>
+   
+
+
+
+</body>
+</html>
